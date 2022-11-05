@@ -1,0 +1,23 @@
+@charset = "utf-8";.
+
+html {background-color: azure;}
+
+body {background-color: aliceblue;
+font-family: Helvetica, Verdana, sans-serif;
+color: dodgerblue;
+}
+body > p {font-size:1.2em;}
+body > header {font-size: 1.2em;}
+h1 {color: darkcyan;
+    font-size: 2.6em;}
+header {background-color: hsl(130, 96%, 72%)}
+section {background-color: paleturquoise;}
+
+nav > ul {line-height: 1.5em;
+    padding-left: 25px;}
+footer {color: black;}
+
+a:link {color: blue;}
+a:visited {color: red;}
+a:hover {color: purple;}
+a:active {color: white;}
